@@ -17,7 +17,7 @@ const Navigation = () => {
           Watches
         </Link>
         <Link className={styles.Navigation__item} to="/">
-          <Logo />
+          <Logo nav={true} />
         </Link>
         <Link className={styles.Navigation__item} to="/blog">
           Blog

@@ -1,4 +1,39 @@
 .Hero {
-  margin-top: 56px;
-  background-image: url("../../../static/images/img.png");
+  //   background-image: url("../../../static/images/img.png");
+  //   position: relative;
+  background-color: rgba(0, 0, 0, 0.85);
+  height: 600px;
+  &__wrapper {
+    height: 100%;
+    padding-top: 145px;
+    position: relative;
+  }
+  &__title {
+    display: block;
+    color: #fff;
+    font-size: 64px;
+    padding: 0 300px;
+    text-align: center;
+    line-height: 1;
+  }
+
+  &__img {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%) scale(1.1);
+    clip-path: polygon(0 0, 100% 0, 100% 95%, 0 95%);
+  }
+  &__text {
+    position: absolute;
+    z-index: 3;
+    right: 300px;
+    bottom: 10px;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  &__span {
+    display: block;
+    color: rgb(154, 154, 154);
+  }
 }
