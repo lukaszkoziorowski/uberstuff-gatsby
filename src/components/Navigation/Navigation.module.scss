@@ -1,0 +1,20 @@
+.Navigation {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: transparent;
+  height: 68px;
+  width: 100%;
+  &__list {
+    height: 56px;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  &__item {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(154, 154, 154);
+  }
+}
