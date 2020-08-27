@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./Hero.module.scss";
 import bagPath from "../../../static/images/item 5 img@2x.png";
 import backgroundPath from "../../../static/images/img.png";
-import Button from "../UI/Button/Button";
+// import Button from "../UI/Button/Button";
 
 const Hero = () => {
   return (
@@ -14,7 +14,7 @@ const Hero = () => {
         <h1 className={styles.Hero__title}>
           Uber cool stuff for amazing people.
         </h1>
-        <Button white={true}>explore shop</Button>
+        <button className={styles.Hero__button}>explore shop</button>
         <div className={styles.Hero__text}>
           <span className={styles.Hero__span}>Black Canvas Bag</span>
           <span className={styles.Hero__span}>

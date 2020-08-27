@@ -1,0 +1,44 @@
+.LastBlogPost {
+  background-color: #262626;
+  min-height: 400px;
+  position: relative;
+  &__img {
+    display: block;
+    margin: 20px auto;
+    width: 40%;
+    transform: translate(-150px, -60px);
+  }
+
+  &__text {
+    position: absolute;
+    top: 30px;
+    left: 670px;
+  }
+
+  &__subtitle {
+    display: block;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 0 0 10px 20px;
+    font-size: 16px;
+    font-weight: 300;
+  }
+  &__title {
+    margin-left: 40px;
+    color: #fff;
+    margin-bottom: 40px;
+    max-width: 500px;
+    font-size: 44px;
+    position: relative;
+    font-weight: bold;
+    &::after {
+      content: "";
+      height: 90%;
+      width: 4px;
+      background-color: #fff;
+      position: absolute;
+      left: -20px;
+      top: 5px;
+    }
+  }
+}
