@@ -69,5 +69,24 @@
 @media (max-width: 720px) {
   .Footer {
     max-width: 100%;
+    min-height: 200px;
+    // max-height: 350px;
+    &__heading {
+      font-size: 20px;
+      padding: 20px 0;
+    }
+    &__email {
+      min-width: 80%;
+      font-size: 14px;
+      padding: 14px 16px;
+      margin-bottom: 40px;
+    }
+    &__rights {
+      color: rgb(154, 154, 154);
+      font-weight: bold;
+      display: block;
+      margin: 0 auto;
+      text-align: center;
+    }
   }
 }

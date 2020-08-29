@@ -21,7 +21,7 @@ const Footer = () => {
         />
       </form>
       {breakpoints.md ? (
-        <span className={styles.Footer__right}>2020. All rights reserved</span>
+        <span className={styles.Footer__rights}>2020. All rights reserved</span>
       ) : (
         <ul className={styles.Footer__menu}>
           <a href="/">
