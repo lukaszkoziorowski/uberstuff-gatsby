@@ -132,3 +132,90 @@
     font-size: 14px;
   }
 }
+
+@media (max-width: 720px) {
+  .ProductsSection {
+    width: 100%;
+    margin-bottom: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 50px 0px;
+    grid-template-areas: "backpack backpack" "black-backpack watch" "macbook bag" "texts texts";
+
+    & article {
+      // z-index: 1;
+      height: 250px;
+
+      &::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        height: 100%;
+        width: 90%;
+        background-color: rgb(247, 247, 247);
+        z-index: -1;
+      }
+    }
+    &__img {
+      width: 60%;
+      transform: scale(1);
+      margin-left: 35px;
+      &First {
+        margin-left: 90px;
+        transform: scale(0.55);
+      }
+    }
+
+    &__macbook {
+      &::before {
+        top: 0%;
+        left: 72%;
+        transform: translateX(-75%);
+        height: 100%;
+        width: 90%;
+      }
+    }
+    &__bag {
+      &::before {
+        top: 0%;
+        left: 72%;
+        transform: translateX(-75%);
+        height: 100%;
+        width: 90%;
+      }
+      &::after {
+        display: none;
+      }
+    }
+
+    &__button {
+      padding: 14px 24px;
+      font-size: 13px;
+      margin-top: 20px;
+      z-index: 100;
+    }
+  }
+  .textDiv {
+    position: absolute;
+    top: 100%;
+    left: 10px;
+    font-size: 14px;
+    &__last {
+      font-size: 20px;
+      line-height: 40px;
+    }
+    &__span {
+      display: block;
+      color: rgb(39, 39, 39);
+    }
+    &__fix {
+      position: absolute;
+      top: 100%;
+      left: 10px;
+      font-size: 14px;
+    }
+  }
+}
