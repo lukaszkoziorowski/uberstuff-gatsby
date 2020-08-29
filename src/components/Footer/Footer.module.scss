@@ -58,9 +58,16 @@
     &__last {
       font-size: 12px;
       color: rgb(154, 154, 154);
-      margin-left: 20%;
+      margin-left: auto;
+      margin-right: 20px;
       font-weight: bold;
       text-transform: uppercase;
     }
+  }
+}
+
+@media (max-width: 720px) {
+  .Footer {
+    max-width: 100%;
   }
 }

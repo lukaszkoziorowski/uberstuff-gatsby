@@ -24,3 +24,46 @@
     }
   }
 }
+
+@media (max-width: 500px) {
+  .Navigation {
+    // display: none;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    height: 80px;
+    width: 100%;
+    background-color: transparent;
+    &__list {
+      display: none;
+      height: 100%;
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    &__item {
+      text-decoration: none;
+      text-transform: uppercase;
+      color: rgb(154, 154, 154);
+      margin-bottom: 60px;
+      &__logo {
+        display: none;
+      }
+    }
+    &__hamburger {
+      position: fixed;
+      top: 20px;
+      left: 20px;
+      width: 28px;
+      background-color: transparent;
+      border: none;
+      outline: none;
+      filter: invert(1);
+    }
+    &__moblogo {
+      display: block;
+      margin: 20px auto 0 auto;
+    }
+  }
+}

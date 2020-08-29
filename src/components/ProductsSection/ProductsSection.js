@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./ProductsSection.module.scss";
 import { Link } from "gatsby";
-import Button from "../UI/Button/Button";
+// import Button from "../UI/Button/Button";
 
 //images
 import backpackPath from "../../../static/images/item 1 img.png";
