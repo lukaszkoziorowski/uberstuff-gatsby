@@ -6,6 +6,7 @@
   background-color: transparent;
   height: 56px;
   width: 100%;
+
   &__list {
     height: 100%;
     list-style: none;
@@ -16,11 +17,42 @@
   &__item {
     text-decoration: none;
     text-transform: uppercase;
-    color: rgb(154, 154, 154);
     transition: all 0.3s;
+    font-weight: bold;
     cursor: pointer;
     &:hover {
       color: rgb(194, 194, 194);
+    }
+    &__gray {
+      color: rgb(154, 154, 154);
+      text-decoration: none;
+      text-transform: uppercase;
+      transition: all 0.3s;
+      font-weight: bold;
+      cursor: pointer;
+      &:hover {
+        color: rgb(194, 194, 194);
+      }
+    }
+    &__black {
+      text-decoration: none;
+      text-transform: uppercase;
+      color: #000;
+      font-weight: bold;
+      transition: all 0.3s;
+      &:hover {
+        color: #555;
+      }
+    }
+    &__white {
+      text-decoration: none;
+      text-transform: uppercase;
+      color: #fff;
+      font-weight: bold;
+      transition: all 0.3s;
+      &:hover {
+        color: #111;
+      }
     }
   }
 }
@@ -42,6 +74,7 @@
       flex-direction: column;
       justify-content: center;
     }
+
     &__item {
       text-decoration: none;
       text-transform: uppercase;
@@ -49,6 +82,9 @@
       margin-bottom: 60px;
       &__logo {
         display: none;
+      }
+      &__black {
+        color: #000;
       }
     }
     &__hamburger {

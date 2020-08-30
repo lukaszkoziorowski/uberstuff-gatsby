@@ -8,7 +8,7 @@ import LastBlogPost from "../components/LastBlogPost/LastBlogPost";
 export default function Home() {
   return (
     <>
-      <Navigation />
+      <Navigation grayText />
       <Hero />
       <ProductsSection />
       <LastBlogPost />

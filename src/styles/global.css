@@ -15,3 +15,15 @@
     overflow-x: hidden;
   }
 }
+
+.active__black {
+  border-bottom: 2px solid black;
+}
+
+.active__white {
+  border-bottom: 2px solid white;
+}
+
+.active__gray {
+  border-bottom: 2px solid rgb(154, 154, 154);
+}

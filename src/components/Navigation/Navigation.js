@@ -24,25 +24,140 @@ const Navigation = (props) => {
       ) : null}
       {breakpoints.md ? null : (
         <ul className={styles.Navigation__list}>
-          <Link className={styles.Navigation__item} to="/bags">
+          <Link
+            className={
+              props.blackText
+                ? styles.Navigation__item__black
+                : props.whiteText
+                ? styles.Navigation__item__white
+                : props.grayText
+                ? styles.Navigation__item__gray
+                : styles.Navigation.item
+            }
+            activeClassName={
+              props.blackText
+                ? "active__black"
+                : props.whiteText
+                ? "active__white"
+                : "active__gray"
+            }
+            // style={
+            //   props.blackText
+            //     ? { color: "black" }
+            //     : props.whiteText
+            //     ? { color: "white" }
+            //     : { color: "#9a9a9a" }
+            // }
+            to="/bags"
+          >
             Bags
           </Link>
-          <Link className={styles.Navigation__item} to="/accesories">
+          <Link
+            className={
+              props.blackText
+                ? styles.Navigation__item__black
+                : props.whiteText
+                ? styles.Navigation__item__white
+                : props.grayText
+                ? styles.Navigation__item__gray
+                : styles.Navigation.item
+            }
+            activeClassName={
+              props.blackText
+                ? "active__black"
+                : props.whiteText
+                ? "active__white"
+                : "active__gray"
+            }
+            to="/accesories"
+          >
             Accesories
           </Link>
-          <Link className={styles.Navigation__item} to="/watches">
+          <Link
+            className={
+              props.blackText
+                ? styles.Navigation__item__black
+                : props.whiteText
+                ? styles.Navigation__item__white
+                : props.grayText
+                ? styles.Navigation__item__gray
+                : styles.Navigation.item
+            }
+            activeClassName={
+              props.blackText
+                ? "active__black"
+                : props.whiteText
+                ? "active__white"
+                : "active__gray"
+            }
+            to="/watches"
+          >
             Watches
           </Link>
           <Link className={styles.Navigation__item__logo} to="/">
-            <Logo nav={true} />
+            <Logo black={props.blackLogo} nav={true} />
           </Link>
-          <Link className={styles.Navigation__item} to="/blog">
+          <Link
+            className={
+              props.blackText
+                ? styles.Navigation__item__black
+                : props.whiteText
+                ? styles.Navigation__item__white
+                : props.grayText
+                ? styles.Navigation__item__gray
+                : styles.Navigation.item
+            }
+            activeClassName={
+              props.blackText
+                ? "active__black"
+                : props.whiteText
+                ? "active__white"
+                : "active__gray"
+            }
+            to="/blog"
+          >
             Blog
           </Link>
-          <Link className={styles.Navigation__item} to="/account">
+          <Link
+            className={
+              props.blackText
+                ? styles.Navigation__item__black
+                : props.whiteText
+                ? styles.Navigation__item__white
+                : props.grayText
+                ? styles.Navigation__item__gray
+                : styles.Navigation.item
+            }
+            activeClassName={
+              props.blackText
+                ? "active__black"
+                : props.whiteText
+                ? "active__white"
+                : "active__gray"
+            }
+            to="/account"
+          >
             My Account
           </Link>
-          <Link className={styles.Navigation__item} to="/checkout">
+          <Link
+            className={
+              props.blackText
+                ? styles.Navigation__item__black
+                : props.whiteText
+                ? styles.Navigation__item__white
+                : props.grayText
+                ? styles.Navigation__item__gray
+                : styles.Navigation.item
+            }
+            activeClassName={
+              props.blackText
+                ? "active__black"
+                : props.whiteText
+                ? "active__white"
+                : "active__gray"
+            }
+            to="/checkout"
+          >
             Checkout
           </Link>
         </ul>

@@ -4,11 +4,11 @@ import { Link } from "gatsby";
 // import Button from "../UI/Button/Button";
 
 //images
-import backpackPath from "../../../static/images/item 1 img.png";
-import blackBackpackPath from "../../../static/images/item 2 img.png";
-import watchPath from "../../../static/images/item 3 img.png";
-import macbookPath from "../../../static/images/item 4 img.png";
-import bagPath from "../../../static/images/item 5 img.png";
+import backpackPath from "../../../static/images/backpack1.png";
+import blackBackpackPath from "../../../static/images/black-backpack1.png";
+import watchPath from "../../../static/images/watch1.png";
+import macbookPath from "../../../static/images/macbook1.png";
+import bagPath from "../../../static/images/bag1.png";
 
 const ProductsSection = () => {
   return (

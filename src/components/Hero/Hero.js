@@ -1,8 +1,7 @@
 import React from "react";
 import styles from "./Hero.module.scss";
-import bagPath from "../../../static/images/item 5 img@2x.png";
+import bagPath from "../../../static/images/bag2x.png";
 import backgroundPath from "../../../static/images/img.png";
-// import Button from "../UI/Button/Button";
 
 const Hero = () => {
   return (

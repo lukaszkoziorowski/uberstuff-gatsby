@@ -2,7 +2,7 @@
   //   background-image: url("../../../static/images/img.png");
   //   position: relative;
   background-color: rgba(0, 0, 0, 0.85);
-  height: 600px;
+  height: 800px;
   &__wrapper {
     height: 100%;
     padding-top: 145px;
@@ -12,17 +12,18 @@
     display: block;
     color: #fff;
     font-size: 64px;
-    padding: 0 300px;
+    margin-top: 50px;
+    padding: 0 600px;
     text-align: center;
     line-height: 1;
   }
 
   &__img {
     position: absolute;
-    bottom: 0;
+    bottom: 90px;
     left: 50%;
-    transform: translateX(-50%) scale(1.1);
-    clip-path: polygon(0 0, 100% 0, 100% 95%, 0 95%);
+    transform: translateX(-50%) scale(1.5);
+    clip-path: polygon(0 0, 100% 0, 100% 96%, 0 96%);
   }
   &__text {
     position: absolute;
@@ -57,6 +58,21 @@
     transition: 0.3s;
     &:hover {
       background-color: #ddd;
+    }
+  }
+}
+
+@media (max-width: 1700px) {
+  .Hero {
+    &__title {
+      padding: 0 300px;
+    }
+  }
+}
+@media (max-width: 1250px) {
+  .Hero {
+    &__title {
+      padding: 0 100px;
     }
   }
 }
