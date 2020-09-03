@@ -5,11 +5,22 @@
   width: 100%;
   background-color: #fff;
   &__title {
+    position: relative;
+    z-index: 5;
     margin-top: 240px;
     font-size: 64px;
     font-weight: bold;
     color: rgb(39, 39, 39);
     text-align: center;
+    &--bags {
+      position: relative;
+      z-index: 4;
+      color: white;
+      text-align: center;
+      margin-top: 240px;
+      font-size: 64px;
+      font-weight: bold;
+    }
   }
   &__btn {
     display: block;
@@ -35,14 +46,14 @@
     position: absolute;
     top: 120px;
     left: 50%;
-    transform: translateX(-60%);
+    transform: translateX(-50%);
   }
   &__text {
     position: absolute;
     color: rgb(154, 154, 154);
     text-align: right;
     bottom: 200px;
-    left: 670px;
+    left: 550px;
     z-index: 3;
   }
 }
