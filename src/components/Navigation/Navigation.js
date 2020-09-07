@@ -5,11 +5,33 @@ import Logo from "../UI/Logo";
 import hamburgerPath from "../../../static/images/menu.svg";
 import logoPath from "../../../static/images/logo.svg";
 import { useBreakpoint } from "gatsby-plugin-breakpoints";
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 const Navigation = (props) => {
   const breakpoints = useBreakpoint();
+  gsap.registerPlugin(ScrollTrigger);
+
+  // gsap.fromTo(
+  //   "nav",
+  //   { backgroundColor: "transparent", opacity: 1 },
+  //   {
+  //     backgroundColor: props.blackText ? "#fff" : "#262626",
+  //     duration: 0.6,
+  //     scrollTrigger: {
+  //       trigger: "nav",
+  //       start: "200px",
+  //       end: "200px",
+  //     },
+  //   }
+  // );
+  // ScrollTrigger.refresh();
+
   return (
-    <nav className={styles.Navigation}>
+    <nav
+      className={styles.Navigation}
+      style={{ backgroundColor: props.blackText ? "#fff" : "#262626" }}
+    >
       {breakpoints.sm ? (
         <button className={styles.Navigation__hamburger}>
           <img src={hamburgerPath} alt="hamburger icon" />
