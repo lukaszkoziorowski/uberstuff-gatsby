@@ -21,6 +21,15 @@
       font-size: 64px;
       font-weight: bold;
     }
+    &--watches {
+      position: relative;
+      z-index: 4;
+      color: white;
+      text-align: center;
+      margin-top: 280px;
+      font-size: 64px;
+      font-weight: bold;
+    }
   }
   &__btn {
     display: block;
@@ -47,6 +56,12 @@
     top: 120px;
     left: 50%;
     transform: translateX(-50%);
+    &--watches {
+      position: absolute;
+      top: -70px;
+      left: 50%;
+      transform: translateX(-49.5%) scale(0.6);
+    }
   }
   &__text {
     position: absolute;
@@ -61,6 +76,7 @@
 .LayoutList {
   width: 85%;
   margin: 0 auto;
+  padding-bottom: 50px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
