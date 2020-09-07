@@ -4,12 +4,12 @@ import { Link } from "gatsby";
 //paths
 import bagPath from "../../static/images/bag2x.png";
 import backpackPath from "../../static/images/backpack1.png";
-import walletPath from "../../static/images/black-wallet.png";
-import beltPath from "../../static/images/belt.png";
-import slimWalletPath from "../../static/images/slim-wallet.png";
-import sunglassesPath from "../../static/images/sunglasses.png";
-import sleevePath from "../../static/images/sleeve.png";
-import tableLampPath from "../../static/images/table-lampp.png";
+import beigeBagPath from "../../static/images/bags/beige-bag.png";
+import schoolBagPath from "../../static/images/bags/schoolbag.png";
+import redBagPath from "../../static/images/bags/red-bag.png";
+import louisBagPath from "../../static/images/bags/louis-bag.png";
+import womanBagPath from "../../static/images/bags/woman-bag.png";
+import yellowBackpackPath from "../../static/images/bags/yellow-backpack.png";
 
 const BagsLayout = () => {
   return (
@@ -23,12 +23,16 @@ const BagsLayout = () => {
             <strong>$89.00</strong>
           </p>
         </div>
-        <img className={styles.LayoutHero__img} src={bagPath} alt="lamp" />
+        <img
+          className={styles.LayoutHero__img}
+          src={bagPath}
+          alt="canvas bag"
+        />
       </header>
       <main className={styles.LayoutList}>
         <figure className={styles["LayoutList__itemFirst"]}>
           <Link className={styles.LayoutList__imgWrapper}>
-            <img src={backpackPath} alt="macbook case" />
+            <img src={backpackPath} alt="backpack" />
           </Link>
           <figcaption className={styles.LayoutList__caption}>
             Breakline Backpack
@@ -37,59 +41,59 @@ const BagsLayout = () => {
         </figure>
         <figure className={styles.LayoutList__item}>
           <Link className={styles.LayoutList__imgWrapper}>
-            <img src={walletPath} alt="wallet" />
+            <img src={beigeBagPath} alt="wallet" />
           </Link>
           <figcaption className={styles.LayoutList__caption}>
-            Black Canvas Wallet
+            Beige Woman Handbag
             <strong className={styles.LayoutList__strong}>$49.00</strong>
           </figcaption>
         </figure>
         <figure className={styles.LayoutList__item}>
           <Link className={styles.LayoutList__imgWrapper}>
-            <img src={beltPath} alt="belt" />
+            <img src={schoolBagPath} alt="belt" />
           </Link>
           <figcaption className={styles.LayoutList__caption}>
-            Black Leather Belt
+            Black School Bag
+            <strong className={styles.LayoutList__strong}>$45.00</strong>
+          </figcaption>
+        </figure>
+        <figure className={styles.LayoutList__item}>
+          <Link className={styles.LayoutList__imgWrapper}>
+            <img src={redBagPath} alt="slim wallet" />
+          </Link>
+          <figcaption className={styles.LayoutList__caption}>
+            Red Bag
             <strong className={styles.LayoutList__strong}>$59.00</strong>
           </figcaption>
         </figure>
+
         <figure className={styles.LayoutList__item}>
           <Link className={styles.LayoutList__imgWrapper}>
-            <img src={slimWalletPath} alt="slim wallet" />
+            <img src={louisBagPath} alt="sunglasses" />
           </Link>
           <figcaption className={styles.LayoutList__caption}>
-            Black Genuine Card Holder
-            <strong className={styles.LayoutList__strong}>$29.00</strong>
+            Louis Vuitton Bag
+            <strong className={styles.LayoutList__strong}>$149.00</strong>
           </figcaption>
         </figure>
 
         <figure className={styles.LayoutList__item}>
           <Link className={styles.LayoutList__imgWrapper}>
-            <img src={sunglassesPath} alt="sunglasses" />
+            <img src={womanBagPath} alt="iPhone 6 sleeve" />
           </Link>
           <figcaption className={styles.LayoutList__caption}>
-            Black Ray Ban Glasses
-            <strong className={styles.LayoutList__strong}>$129.00</strong>
-          </figcaption>
-        </figure>
-
-        <figure className={styles.LayoutList__item}>
-          <Link className={styles.LayoutList__imgWrapper}>
-            <img src={sleevePath} alt="iPhone 6 sleeve" />
-          </Link>
-          <figcaption className={styles.LayoutList__caption}>
-            Leather iPhone6 Sleeve
+            Leather Black Bag
             <strong className={styles.LayoutList__strong}>$69.00</strong>
           </figcaption>
         </figure>
 
         <figure className={styles.LayoutList__item}>
           <Link className={styles.LayoutList__imgWrapper}>
-            <img src={tableLampPath} alt="lamp" />
+            <img src={yellowBackpackPath} alt="lamp" />
           </Link>
           <figcaption className={styles.LayoutList__caption}>
-            Wooden Table Lamp
-            <strong className={styles.LayoutList__strong}>$49.00</strong>
+            Yellow Canvas Backpack
+            <strong className={styles.LayoutList__strong}>$79.00</strong>
           </figcaption>
         </figure>
       </main>
