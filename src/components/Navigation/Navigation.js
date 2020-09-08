@@ -5,28 +5,11 @@ import Logo from "../UI/Logo";
 import hamburgerPath from "../../../static/images/menu.svg";
 import logoPath from "../../../static/images/logo.svg";
 import { useBreakpoint } from "gatsby-plugin-breakpoints";
-import { gsap } from "gsap";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
+// import { gsap } from "gsap";
+// import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 const Navigation = (props) => {
   const breakpoints = useBreakpoint();
-  gsap.registerPlugin(ScrollTrigger);
-
-  // gsap.fromTo(
-  //   "nav",
-  //   { backgroundColor: "transparent", opacity: 1 },
-  //   {
-  //     backgroundColor: props.blackText ? "#fff" : "#262626",
-  //     duration: 0.6,
-  //     scrollTrigger: {
-  //       trigger: "nav",
-  //       start: "200px",
-  //       end: "200px",
-  //     },
-  //   }
-  // );
-  // ScrollTrigger.refresh();
-
   return (
     <nav
       className={styles.Navigation}
@@ -34,7 +17,11 @@ const Navigation = (props) => {
     >
       {breakpoints.sm ? (
         <button className={styles.Navigation__hamburger}>
-          <img src={hamburgerPath} alt="hamburger icon" />
+          <img
+            src={hamburgerPath}
+            alt="hamburger icon"
+            style={{ filter: props.blackText ? "invert(1)" : null }}
+          />
         </button>
       ) : null}
       {breakpoints.sm ? (
@@ -42,6 +29,7 @@ const Navigation = (props) => {
           src={logoPath}
           alt="site logo"
           className={styles.Navigation__moblogo}
+          style={{ filter: props.blackLogo ? "invert(1)" : null }}
         />
       ) : null}
       {breakpoints.md ? null : (
