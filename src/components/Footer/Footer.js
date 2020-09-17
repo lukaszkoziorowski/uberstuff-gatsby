@@ -11,7 +11,7 @@ const Footer = () => {
       style={{ backgroundImage: `url(${waterPath})` }}
     >
       <h2 className={styles.Footer__heading}>
-        Sing up for our newsletter and get 20% off.
+        Sign up for our newsletter and get 20% off.
       </h2>
       <form>
         <input
