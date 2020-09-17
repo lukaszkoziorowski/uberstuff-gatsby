@@ -81,7 +81,7 @@ const Navigation = (props) => {
             }
             to="/accesories"
           >
-            Accesories
+            Accessories
           </Link>
           <Link
             className={
