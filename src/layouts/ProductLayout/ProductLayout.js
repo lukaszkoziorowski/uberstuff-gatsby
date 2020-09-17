@@ -1,8 +1,17 @@
 import React from "react";
 import styles from "./ProductLayout.module.scss";
 
-const ProductLayout = (id) => {
-  return <section className={styles.Product}></section>;
+import { products } from "../../components/array";
+
+const ProductLayout = (props) => {
+  const filtered = products.find((item) => item.id === props.id);
+
+  return (
+    <>
+      <header className={styles.Product}></header>
+      <section className={styles.SimilarProducts}></section>
+    </>
+  );
 };
 
 export default ProductLayout;

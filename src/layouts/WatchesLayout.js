@@ -32,7 +32,10 @@ const WatchesLayout = () => {
       </header>
       <main className={styles.LayoutList}>
         <figure className={styles["LayoutList__itemFirst"]}>
-          <Link className={styles.LayoutList__imgWrapper}>
+          <Link
+            to="/products/watches/mvmt"
+            className={styles.LayoutList__imgWrapper}
+          >
             <img src={mvmtWatchPath} alt="mvmt watch" />
           </Link>
           <figcaption className={styles.LayoutList__caption}>
@@ -41,7 +44,10 @@ const WatchesLayout = () => {
           </figcaption>
         </figure>
         <figure className={styles.LayoutList__item}>
-          <Link className={styles.LayoutList__imgWrapper}>
+          <Link
+            to="/products/watches/arcadia"
+            className={styles.LayoutList__imgWrapper}
+          >
             <img src={arcadiaWatchPath} alt="arcadia watch" />
           </Link>
           <figcaption className={styles.LayoutList__caption}>
@@ -50,7 +56,10 @@ const WatchesLayout = () => {
           </figcaption>
         </figure>
         <figure className={styles.LayoutList__item}>
-          <Link className={styles.LayoutList__imgWrapper}>
+          <Link
+            to="/products/watches/minuteman"
+            className={styles.LayoutList__imgWrapper}
+          >
             <img src={minutemanWatchPath} alt="minuteman watch" />
           </Link>
           <figcaption className={styles.LayoutList__caption}>
@@ -59,7 +68,10 @@ const WatchesLayout = () => {
           </figcaption>
         </figure>
         <figure className={styles.LayoutList__item}>
-          <Link className={styles.LayoutList__imgWrapper}>
+          <Link
+            to="/products/watches/raidillon"
+            className={styles.LayoutList__imgWrapper}
+          >
             <img src={raidillonWatchPath} alt="raidillon watch" />
           </Link>
           <figcaption className={styles.LayoutList__caption}>
@@ -69,7 +81,10 @@ const WatchesLayout = () => {
         </figure>
 
         <figure className={styles.LayoutList__item}>
-          <Link className={styles.LayoutList__imgWrapper}>
+          <Link
+            to="/products/watches/sekonda"
+            className={styles.LayoutList__imgWrapper}
+          >
             <img src={womanWatchPath} alt="women's watch" />
           </Link>
           <figcaption className={styles.LayoutList__caption}>
@@ -79,7 +94,10 @@ const WatchesLayout = () => {
         </figure>
 
         <figure className={styles.LayoutList__item}>
-          <Link className={styles.LayoutList__imgWrapper}>
+          <Link
+            to="/products/watches/pocketWatch"
+            className={styles.LayoutList__imgWrapper}
+          >
             <img src={pocketWatchPath} alt="pocket watch" />
           </Link>
           <figcaption className={styles.LayoutList__caption}>
@@ -89,7 +107,10 @@ const WatchesLayout = () => {
         </figure>
 
         <figure className={styles.LayoutList__item}>
-          <Link className={styles.LayoutList__imgWrapper}>
+          <Link
+            to="/products/watches/grovana"
+            className={styles.LayoutList__imgWrapper}
+          >
             <img src={grovanaWatchPath} alt="grovana watch" />
           </Link>
           <figcaption className={styles.LayoutList__caption}>

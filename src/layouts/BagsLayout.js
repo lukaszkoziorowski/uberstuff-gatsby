@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./Layout.module.scss";
 import { Link } from "gatsby";
+import { products } from "../components/array";
 //paths
 import bagPath from "../../static/images/bag2x.png";
 import backpackPath from "../../static/images/backpack1.png";
@@ -31,7 +32,10 @@ const BagsLayout = () => {
       </header>
       <main className={styles.LayoutList}>
         <figure className={styles["LayoutList__itemFirst"]}>
-          <Link className={styles.LayoutList__imgWrapper}>
+          <Link
+            to="/products/bags/breaklineBackpack"
+            className={styles.LayoutList__imgWrapper}
+          >
             <img src={backpackPath} alt="backpack" />
           </Link>
           <figcaption className={styles.LayoutList__caption}>
@@ -40,7 +44,10 @@ const BagsLayout = () => {
           </figcaption>
         </figure>
         <figure className={styles.LayoutList__item}>
-          <Link className={styles.LayoutList__imgWrapper}>
+          <Link
+            to="/products/bags/beigeHandbag"
+            className={styles.LayoutList__imgWrapper}
+          >
             <img src={beigeBagPath} alt="wallet" />
           </Link>
           <figcaption className={styles.LayoutList__caption}>
@@ -49,7 +56,10 @@ const BagsLayout = () => {
           </figcaption>
         </figure>
         <figure className={styles.LayoutList__item}>
-          <Link className={styles.LayoutList__imgWrapper}>
+          <Link
+            to="/products/bags/schoolBag"
+            className={styles.LayoutList__imgWrapper}
+          >
             <img src={schoolBagPath} alt="belt" />
           </Link>
           <figcaption className={styles.LayoutList__caption}>
@@ -58,7 +68,10 @@ const BagsLayout = () => {
           </figcaption>
         </figure>
         <figure className={styles.LayoutList__item}>
-          <Link className={styles.LayoutList__imgWrapper}>
+          <Link
+            to="/products/bags/redBag"
+            className={styles.LayoutList__imgWrapper}
+          >
             <img src={redBagPath} alt="slim wallet" />
           </Link>
           <figcaption className={styles.LayoutList__caption}>
@@ -68,7 +81,10 @@ const BagsLayout = () => {
         </figure>
 
         <figure className={styles.LayoutList__item}>
-          <Link className={styles.LayoutList__imgWrapper}>
+          <Link
+            to="/products/bags/louisBag"
+            className={styles.LayoutList__imgWrapper}
+          >
             <img src={louisBagPath} alt="sunglasses" />
           </Link>
           <figcaption className={styles.LayoutList__caption}>
@@ -78,7 +94,10 @@ const BagsLayout = () => {
         </figure>
 
         <figure className={styles.LayoutList__item}>
-          <Link className={styles.LayoutList__imgWrapper}>
+          <Link
+            to="/products/bags/leatherBag"
+            className={styles.LayoutList__imgWrapper}
+          >
             <img src={womanBagPath} alt="iPhone 6 sleeve" />
           </Link>
           <figcaption className={styles.LayoutList__caption}>
@@ -88,7 +107,10 @@ const BagsLayout = () => {
         </figure>
 
         <figure className={styles.LayoutList__item}>
-          <Link className={styles.LayoutList__imgWrapper}>
+          <Link
+            to="/products/bags/yellowBackpack"
+            className={styles.LayoutList__imgWrapper}
+          >
             <img src={yellowBackpackPath} alt="lamp" />
           </Link>
           <figcaption className={styles.LayoutList__caption}>

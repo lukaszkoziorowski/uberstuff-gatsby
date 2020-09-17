@@ -27,7 +27,10 @@ const AccessoriesLayout = () => {
       </header>
       <main className={styles.LayoutList}>
         <figure className={styles["LayoutList__itemFirst"]}>
-          <Link className={styles.LayoutList__imgWrapper}>
+          <Link
+            to="/products/accessories/macbookCase"
+            className={styles.LayoutList__imgWrapper}
+          >
             <img src={macbookPath} alt="macbook case" />
           </Link>
           <figcaption className={styles.LayoutList__caption}>
@@ -36,7 +39,10 @@ const AccessoriesLayout = () => {
           </figcaption>
         </figure>
         <figure className={styles.LayoutList__item}>
-          <Link className={styles.LayoutList__imgWrapper}>
+          <Link
+            to="/products/accessories/blackWallet"
+            className={styles.LayoutList__imgWrapper}
+          >
             <img src={walletPath} alt="wallet" />
           </Link>
           <figcaption className={styles.LayoutList__caption}>
@@ -45,7 +51,10 @@ const AccessoriesLayout = () => {
           </figcaption>
         </figure>
         <figure className={styles.LayoutList__item}>
-          <Link className={styles.LayoutList__imgWrapper}>
+          <Link
+            to="/products/accessories/blackBelt"
+            className={styles.LayoutList__imgWrapper}
+          >
             <img src={beltPath} alt="belt" />
           </Link>
           <figcaption className={styles.LayoutList__caption}>
@@ -54,7 +63,10 @@ const AccessoriesLayout = () => {
           </figcaption>
         </figure>
         <figure className={styles.LayoutList__item}>
-          <Link className={styles.LayoutList__imgWrapper}>
+          <Link
+            to="/products/accessories/cardHolder"
+            className={styles.LayoutList__imgWrapper}
+          >
             <img src={slimWalletPath} alt="slim wallet" />
           </Link>
           <figcaption className={styles.LayoutList__caption}>
@@ -64,7 +76,10 @@ const AccessoriesLayout = () => {
         </figure>
 
         <figure className={styles.LayoutList__item}>
-          <Link className={styles.LayoutList__imgWrapper}>
+          <Link
+            to="/products/accessories/raybanGlasses"
+            className={styles.LayoutList__imgWrapper}
+          >
             <img src={sunglassesPath} alt="sunglasses" />
           </Link>
           <figcaption className={styles.LayoutList__caption}>
@@ -74,7 +89,10 @@ const AccessoriesLayout = () => {
         </figure>
 
         <figure className={styles.LayoutList__item}>
-          <Link className={styles.LayoutList__imgWrapper}>
+          <Link
+            to="/products/accessories/iphone6Sleeve"
+            className={styles.LayoutList__imgWrapper}
+          >
             <img src={sleevePath} alt="iPhone 6 sleeve" />
           </Link>
           <figcaption className={styles.LayoutList__caption}>
@@ -84,7 +102,10 @@ const AccessoriesLayout = () => {
         </figure>
 
         <figure className={styles.LayoutList__item}>
-          <Link className={styles.LayoutList__imgWrapper}>
+          <Link
+            to="/products/accessories/tableLamp"
+            className={styles.LayoutList__imgWrapper}
+          >
             <img src={tableLampPath} alt="lamp" />
           </Link>
           <figcaption className={styles.LayoutList__caption}>
