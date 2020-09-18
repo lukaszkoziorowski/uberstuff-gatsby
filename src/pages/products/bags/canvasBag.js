@@ -3,14 +3,14 @@ import Navigation from "../../../components/Navigation/Navigation";
 import ProductLayout from "../../../layouts/ProductLayout/ProductLayout";
 import Footer from "../../../components/Footer/Footer";
 
-const schoolBag = () => {
+const canvasBag = () => {
   return (
     <>
       <Navigation blackText={true} blackLogo={true} />
-      <ProductLayout id={2} />
+      <ProductLayout id={21} />
       <Footer />
     </>
   );
 };
 
-export default schoolBag;
+export default canvasBag;

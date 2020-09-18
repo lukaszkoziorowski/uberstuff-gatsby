@@ -14,7 +14,7 @@ const ProductsSection = () => {
   return (
     <section className={styles.ProductsSection}>
       <article className={styles.ProductsSection__backpack}>
-        <Link to="/bags">
+        <Link to="/products/bags/breaklineBackpack">
           <img
             className={styles.ProductsSection__imgFirst}
             src={backpackPath}

@@ -4,7 +4,7 @@ import styles from "./ProductLayout.module.scss";
 import { products } from "../../components/array";
 
 const ProductLayout = (props) => {
-  const filtered = products.find((item) => item.id === props.id);
+  const product = products.find((item) => item.id === props.id);
 
   return (
     <>

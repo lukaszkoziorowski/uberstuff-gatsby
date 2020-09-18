@@ -18,12 +18,15 @@ const WatchesLayout = () => {
       <header className={styles.LayoutHero}>
         <h1 className={styles["LayoutHero__titleWatches"]}>Watches</h1>
         <button className={styles.LayoutHero__btn}>explore category</button>
-        <div className={styles.LayoutHero__text}>
+        <Link
+          to="/products/watches/blackSmartwatch"
+          className={styles.LayoutHero__text}
+        >
           <p className={styles.LayoutHero__span}>Black Smartwatch</p>
           <p className={styles.LayoutHero__span}>
             <strong>$159.00</strong>
           </p>
-        </div>
+        </Link>
         <img
           className={styles["LayoutHero__imgWatches"]}
           src={smartwatchPath}

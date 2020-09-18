@@ -1,12 +1,12 @@
 import React from "react";
 import styles from "./Layout.module.scss";
 import { Link } from "gatsby";
-import { products } from "../components/array";
+// import { products } from "../components/array";
 //paths
 import bagPath from "../../static/images/bag2x.png";
 import backpackPath from "../../static/images/backpack1.png";
 import beigeBagPath from "../../static/images/bags/beige-bag.png";
-import schoolBagPath from "../../static/images/bags/schoolbag.png";
+import blackBackpackPath from "../../static/images/black-backpack1.png";
 import redBagPath from "../../static/images/bags/red-bag.png";
 import louisBagPath from "../../static/images/bags/louis-bag.png";
 import womanBagPath from "../../static/images/bags/woman-bag.png";
@@ -18,12 +18,12 @@ const BagsLayout = () => {
       <header className={styles.LayoutHero}>
         <h1 className={styles["LayoutHero__titleBags"]}>Bags</h1>
         <button className={styles.LayoutHero__btn}>explore category</button>
-        <div className={styles.LayoutHero__text}>
+        <Link to="/products/bags/canvasBag" className={styles.LayoutHero__text}>
           <p className={styles.LayoutHero__span}>Black Canvas Bag</p>
           <p className={styles.LayoutHero__span}>
             <strong>$89.00</strong>
           </p>
-        </div>
+        </Link>
         <img
           className={styles.LayoutHero__img}
           src={bagPath}
@@ -57,14 +57,14 @@ const BagsLayout = () => {
         </figure>
         <figure className={styles.LayoutList__item}>
           <Link
-            to="/products/bags/schoolBag"
+            to="/products/bags/blackBackpack"
             className={styles.LayoutList__imgWrapper}
           >
-            <img src={schoolBagPath} alt="belt" />
+            <img src={blackBackpackPath} alt="belt" />
           </Link>
           <figcaption className={styles.LayoutList__caption}>
-            Black School Bag
-            <strong className={styles.LayoutList__strong}>$45.00</strong>
+            Black Canvas Backpack
+            <strong className={styles.LayoutList__strong}>$69.00</strong>
           </figcaption>
         </figure>
         <figure className={styles.LayoutList__item}>

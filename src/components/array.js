@@ -1,8 +1,10 @@
 //bags
 import bagPath from "../../static/images/bag2x.png";
+import blackBackpackPath from "../../static/images/black-backpack1.png";
+
 import backpackPath from "../../static/images/backpack1.png";
 import beigeBagPath from "../../static/images/bags/beige-bag.png";
-import schoolBagPath from "../../static/images/bags/schoolbag.png";
+// import schoolBagPath from "../../static/images/bags/schoolbag.png";
 import redBagPath from "../../static/images/bags/red-bag.png";
 import louisBagPath from "../../static/images/bags/louis-bag.png";
 import womanBagPath from "../../static/images/bags/woman-bag.png";
@@ -48,10 +50,10 @@ export const products = [
   },
   {
     id: 2,
-    name: "Black School Bag",
+    name: "Black Canvas Backpack",
     color: "black",
-    price: "$45,00",
-    img: schoolBagPath,
+    price: "$69,00",
+    img: blackBackpackPath,
     desc:
       "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
   },
@@ -214,6 +216,33 @@ export const products = [
     color: "black",
     price: "$129,00",
     img: grovanaWatchPath,
+    desc:
+      "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
+  },
+  {
+    id: 21,
+    name: "Black Canvas Bag",
+    color: "black",
+    price: "$89,00",
+    img: bagPath,
+    desc:
+      "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
+  },
+  {
+    id: 22,
+    name: "Wooden Desk Lamp",
+    color: "beige",
+    price: "$39,00",
+    img: lampPath,
+    desc:
+      "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
+  },
+  {
+    id: 23,
+    name: "Black Smartwatch",
+    color: "black",
+    price: "$159,00",
+    img: smartwatchPath,
     desc:
       "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
   },

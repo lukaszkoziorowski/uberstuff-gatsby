@@ -17,12 +17,15 @@ const AccessoriesLayout = () => {
       <header className={styles.LayoutHero}>
         <h1 className={styles.LayoutHero__title}>Accessories</h1>
         <button className={styles.LayoutHero__btn}>explore category</button>
-        <div className={styles.LayoutHero__text}>
+        <Link
+          to="/products/accessories/lamp"
+          className={styles.LayoutHero__text}
+        >
           <p className={styles.LayoutHero__span}>Wooden Desk Lamp</p>
           <p className={styles.LayoutHero__span}>
             <strong>$39.00</strong>
           </p>
-        </div>
+        </Link>
         <img className={styles.LayoutHero__img} src={lampPath} alt="lamp" />
       </header>
       <main className={styles.LayoutList}>
