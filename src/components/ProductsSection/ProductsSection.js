@@ -29,7 +29,7 @@ const ProductsSection = () => {
         </Link>
       </article>
       <article className={styles.ProductsSections__blackbackpack}>
-        <Link to="/bags">
+        <Link to="/products/bags/blackBackpack">
           <img
             className={styles.ProductsSection__img}
             src={blackBackpackPath}
@@ -44,7 +44,7 @@ const ProductsSection = () => {
         </Link>
       </article>
       <article className={styles.ProductsSection__watch}>
-        <Link to="/watches">
+        <Link to="/products/watches/mvmt">
           <img
             className={styles.ProductsSection__img}
             src={watchPath}
@@ -59,7 +59,7 @@ const ProductsSection = () => {
         </Link>
       </article>
       <article className={styles.ProductsSection__macbook}>
-        <Link to="/accesories">
+        <Link to="/products/accessories/macbookCase">
           <img
             className={styles.ProductsSection__img}
             src={macbookPath}
@@ -74,7 +74,7 @@ const ProductsSection = () => {
         </Link>
       </article>
       <article className={styles.ProductsSection__bag}>
-        <Link to="/bags">
+        <Link to="/products/bags/canvasBag">
           <img
             className={styles.ProductsSection__img}
             src={bagPath}
@@ -93,7 +93,7 @@ const ProductsSection = () => {
           <h3>Free Shipping.</h3>
           <h3>Amazing Customer Service.</h3>
           <h3>No custom or duty fees.</h3>
-          <button className={styles.ProductsSection__button}>more info</button>
+          <Link className={styles.ProductsSection__button}>more info</Link>
         </div>
       </article>
     </section>
