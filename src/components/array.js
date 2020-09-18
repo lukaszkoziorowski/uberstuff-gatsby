@@ -38,6 +38,7 @@ export const products = [
     img: backpackPath,
     desc:
       "Genuine leather backpack with original pressed pattern designed by graphic designer Enikő DériSolid shape developed by playing with hand-painted cut edges. The bag opens on the front with a double metal zip; its size is adjustable by a twist lock.",
+    category: "bags",
   },
   {
     id: 1,
@@ -47,6 +48,7 @@ export const products = [
     img: beigeBagPath,
     desc:
       "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
+    category: "bags",
   },
   {
     id: 2,
@@ -56,6 +58,7 @@ export const products = [
     img: blackBackpackPath,
     desc:
       "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
+    category: "bags",
   },
   {
     id: 3,
@@ -65,6 +68,7 @@ export const products = [
     img: redBagPath,
     desc:
       "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
+    category: "bags",
   },
   {
     id: 4,
@@ -74,6 +78,7 @@ export const products = [
     img: louisBagPath,
     desc:
       "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
+    category: "bags",
   },
   {
     id: 5,
@@ -83,6 +88,7 @@ export const products = [
     img: womanBagPath,
     desc:
       "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
+    category: "bags",
   },
   {
     id: 6,
@@ -92,6 +98,7 @@ export const products = [
     img: yellowBackpackPath,
     desc:
       "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
+    category: "bags",
   },
   {
     id: 7,
@@ -101,6 +108,7 @@ export const products = [
     img: macbookPath,
     desc:
       "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
+    category: "accessories",
   },
   {
     id: 8,
@@ -110,6 +118,7 @@ export const products = [
     img: walletPath,
     desc:
       "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
+    category: "accessories",
   },
   {
     id: 9,
@@ -119,6 +128,7 @@ export const products = [
     img: beltPath,
     desc:
       "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
+    category: "accessories",
   },
   {
     id: 10,
@@ -128,6 +138,7 @@ export const products = [
     img: slimWalletPath,
     desc:
       "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
+    category: "accessories",
   },
   {
     id: 11,
@@ -137,6 +148,7 @@ export const products = [
     img: sunglassesPath,
     desc:
       "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
+    category: "accessories",
   },
   {
     id: 12,
@@ -146,6 +158,7 @@ export const products = [
     img: sleevePath,
     desc:
       "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
+    category: "accessories",
   },
   {
     id: 13,
@@ -155,6 +168,7 @@ export const products = [
     img: tableLampPath,
     desc:
       "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
+    category: "accessories",
   },
   {
     id: 14,
@@ -164,6 +178,7 @@ export const products = [
     img: mvmtWatchPath,
     desc:
       "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
+    category: "watches",
   },
   {
     id: 15,
@@ -173,6 +188,7 @@ export const products = [
     img: arcadiaWatchPath,
     desc:
       "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
+    category: "watches",
   },
   {
     id: 16,
@@ -182,6 +198,7 @@ export const products = [
     img: minutemanWatchPath,
     desc:
       "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
+    category: "watches",
   },
   {
     id: 17,
@@ -191,6 +208,7 @@ export const products = [
     img: raidillonWatchPath,
     desc:
       "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
+    category: "watches",
   },
   {
     id: 18,
@@ -200,6 +218,7 @@ export const products = [
     img: womanWatchPath,
     desc:
       "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
+    category: "watches",
   },
   {
     id: 19,
@@ -209,6 +228,7 @@ export const products = [
     img: pocketWatchPath,
     desc:
       "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
+    category: "watches",
   },
   {
     id: 20,
@@ -218,6 +238,7 @@ export const products = [
     img: grovanaWatchPath,
     desc:
       "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
+    category: "watches",
   },
   {
     id: 21,
@@ -227,6 +248,7 @@ export const products = [
     img: bagPath,
     desc:
       "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
+    category: "bags",
   },
   {
     id: 22,
@@ -236,6 +258,7 @@ export const products = [
     img: lampPath,
     desc:
       "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
+    category: "accessories",
   },
   {
     id: 23,
@@ -245,5 +268,6 @@ export const products = [
     img: smartwatchPath,
     desc:
       "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
+    category: "watches",
   },
 ];

@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./ProductLayout.module.scss";
+import { Link } from "gatsby";
 
 import { products } from "../../components/array";
 
@@ -9,6 +10,11 @@ const ProductLayout = (props) => {
   const colorsArray = ["white", "beige", "blue navy"];
   const randomColor =
     colorsArray[Math.floor(Math.random() * colorsArray.length)];
+  const similar1 = products[Math.floor(Math.random() * products.length)];
+  console.log(similar1);
+  const similar2 = products[Math.floor(Math.random() * products.length)];
+  const similar3 = products[Math.floor(Math.random() * products.length)];
+  const similarProds = [similar1, similar2, similar3];
 
   return (
     <>
@@ -41,7 +47,68 @@ const ProductLayout = (props) => {
           </div>
         </section>
       </header>
-      <section className={styles.SimilarProducts}></section>
+      <section className={styles.SimilarProducts}>
+        <h2 className={styles.SimilarProducts__heading}>You may also like</h2>
+        <section className={styles.SimilarProducts__products}>
+          <Link
+            to={`/${similar1.category}/${similar1.id}`}
+            className={styles.SimilarProducts__product}
+          >
+            <figure className={styles.SimilarProducts__figure}>
+              <img
+                className={styles.SimilarProducts__image}
+                src={similar1.img}
+                alt="product image"
+              />
+            </figure>
+
+            <span className={styles.SimilarProducts__name}>
+              {similar1.name}
+            </span>
+            <span className={styles.SimilarProducts__price}>
+              <strong>{similar1.price}</strong>
+            </span>
+          </Link>
+          <Link
+            to={`/${similar2.category}/${similar2.id}`}
+            className={styles.SimilarProducts__product}
+          >
+            <figure className={styles.SimilarProducts__figure}>
+              <img
+                className={styles.SimilarProducts__image}
+                src={similar2.img}
+                alt="product image"
+              />
+            </figure>
+
+            <span className={styles.SimilarProducts__name}>
+              {similar2.name}
+            </span>
+            <span className={styles.SimilarProducts__price}>
+              <strong>{similar2.price}</strong>
+            </span>
+          </Link>
+          <Link
+            to={`/${similar3.category}/${similar3.id}`}
+            className={styles.SimilarProducts__product}
+          >
+            <figure className={styles.SimilarProducts__figure}>
+              <img
+                className={styles.SimilarProducts__image}
+                src={similar3.img}
+                alt="product image"
+              />
+            </figure>
+
+            <span className={styles.SimilarProducts__name}>
+              {similar3.name}
+            </span>
+            <span className={styles.SimilarProducts__price}>
+              <strong>{similar3.price}</strong>
+            </span>
+          </Link>
+        </section>
+      </section>
     </>
   );
 };

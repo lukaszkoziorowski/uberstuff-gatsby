@@ -14,7 +14,7 @@ const ProductsSection = () => {
   return (
     <section className={styles.ProductsSection}>
       <article className={styles.ProductsSection__backpack}>
-        <Link to="/products/bags/breaklineBackpack">
+        <Link to="/bags/0">
           <img
             className={styles.ProductsSection__imgFirst}
             src={backpackPath}
@@ -29,7 +29,7 @@ const ProductsSection = () => {
         </Link>
       </article>
       <article className={styles.ProductsSections__blackbackpack}>
-        <Link to="/products/bags/blackBackpack">
+        <Link to="/bags/2">
           <img
             className={styles.ProductsSection__img}
             src={blackBackpackPath}
@@ -44,7 +44,7 @@ const ProductsSection = () => {
         </Link>
       </article>
       <article className={styles.ProductsSection__watch}>
-        <Link to="/products/watches/mvmt">
+        <Link to="/watches/14">
           <img
             className={styles.ProductsSection__img}
             src={watchPath}
@@ -59,7 +59,7 @@ const ProductsSection = () => {
         </Link>
       </article>
       <article className={styles.ProductsSection__macbook}>
-        <Link to="/products/accessories/macbookCase">
+        <Link to="/accessories/7">
           <img
             className={styles.ProductsSection__img}
             src={macbookPath}
@@ -74,7 +74,7 @@ const ProductsSection = () => {
         </Link>
       </article>
       <article className={styles.ProductsSection__bag}>
-        <Link to="/products/bags/canvasBag">
+        <Link to="/bags/21">
           <img
             className={styles.ProductsSection__img}
             src={bagPath}
