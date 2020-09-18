@@ -93,7 +93,9 @@ const ProductsSection = () => {
           <h3>Free Shipping.</h3>
           <h3>Amazing Customer Service.</h3>
           <h3>No custom or duty fees.</h3>
-          <Link className={styles.ProductsSection__button}>more info</Link>
+          <Link to="/" className={styles.ProductsSection__button}>
+            more info
+          </Link>
         </div>
       </article>
     </section>
