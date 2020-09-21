@@ -7,7 +7,7 @@ import Footer from "../components/Footer/Footer";
 const AccesoriesPage = () => {
   return (
     <>
-      <Navigation blackText={true} blackLogo={true} />
+      <Navigation blackText blackLogo />
       <AccessoriesLayout />
       <Footer />
     </>

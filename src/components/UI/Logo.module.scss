@@ -1,0 +1,10 @@
+.Logo {
+  display: block;
+  @media (max-width: 760px) {
+    display: block;
+    position: fixed;
+    top: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}

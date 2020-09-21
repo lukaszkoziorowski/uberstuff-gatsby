@@ -1,15 +1,20 @@
 import React from "react";
-import logoPath from "../../../static/images/logo.svg";
 // import Img from "gatsby-image";
+import logoPath from "../../../static/images/logo.svg";
+import { Link } from "gatsby";
 // import { useStaticQuery, graphql } from "gatsby";
+import styles from "./Logo.module.scss";
 
 const Logo = (props) => {
   return (
-    <img
-      src={logoPath}
-      alt="Website logo"
-      style={props.black ? { filter: "brightness(0%)" } : null}
-    />
+    <Link className={styles.Logo} to="/">
+      <img
+        src={logoPath}
+        alt="Website logo"
+        style={props.noLogo ? { display: "none" } : null}
+        style={props.mobile ? { display: "none" } : null}
+      />
+    </Link>
   );
 };
 

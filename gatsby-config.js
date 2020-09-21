@@ -11,11 +11,11 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     "gatsby-plugin-breakpoints",
+    "gatsby-plugin-styled-components",
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `images`,
-        path: `${__dirname}/static/`,
+        path: `./static/images`,
       },
     },
   ],
