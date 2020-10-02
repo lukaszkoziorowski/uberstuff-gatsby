@@ -30,7 +30,7 @@ const Toggle = styled.div`
   display: none;
   height: 100%;
   cursor: pointer;
-  padding: 0 10vw;
+  padding: 0 5vw;
 
   @media (max-width: 760px) {
     display: flex;
