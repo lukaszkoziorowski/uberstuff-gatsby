@@ -190,32 +190,31 @@
       }
     }
   }
-}
-
-.SimilarProducts {
-  margin: 200px auto;
-  width: 90%;
-  min-height: 400px;
-  margin-bottom: 400px;
-  &__heading {
-    font-size: 26px;
-    margin: 0 10px;
-  }
-  &__products {
-    margin-top: 180px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-  }
-  &__product {
-    width: auto;
-    height: 200px;
-    margin-bottom: 30px;
-  }
-  &__figure {
-    height: 80%;
-  }
-  &__name {
-    margin-top: 10px;
+  .SimilarProducts {
+    margin: 200px auto;
+    width: 90%;
+    min-height: 400px;
+    margin-bottom: 400px;
+    &__heading {
+      font-size: 26px;
+      margin: 0 10px;
+    }
+    &__products {
+      margin-top: 180px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+    }
+    &__product {
+      width: auto;
+      height: 200px;
+      margin-bottom: 30px;
+    }
+    &__figure {
+      height: 80%;
+    }
+    &__name {
+      margin-top: 10px;
+    }
   }
 }
